@@ -72,7 +72,7 @@ def main():
     f = ad.file(INDIR+'asdex_phi_%d'%data_num[0]+'.bp')
 
     blob_size_file = open(OUTDIR+"/blob_size.txt", "w")
-
+    
     Nx = f['numCells'][0]
     Ny = f['numCells'][1]
     Nz = f['numCells'][2]
